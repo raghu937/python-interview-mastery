@@ -63,4 +63,7 @@ print(dict(x))
 trignometry = ((1,2),(3,4),(5,6))
 print(type(trignometry))
 x = dict(trignometry)
+y = {n:m for m,n in x.items()}
 print(type(x))
+
+print(y,new_dict)
