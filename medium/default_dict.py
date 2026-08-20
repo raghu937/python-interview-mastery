@@ -33,3 +33,12 @@ new_dict = {}
 for x,y in students:
     new_dict.setdefault(y,[]).append(x)
 print(new_dict)
+
+
+
+def count_ch(s):
+    group = defaultdict(int)
+    for i in s:
+        group[i] += 1
+    return dict(group)
+print(count_ch('My is Khan : shahrukhkhan'))
