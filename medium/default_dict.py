@@ -24,3 +24,12 @@ print(type(group))
 print(count)
 print(type(count))
 print(dict(count))
+
+print(students)
+
+#set default dict , without import we can use this.
+new_dict = {}
+
+for x,y in students:
+    new_dict.setdefault(y,[]).append(x)
+print(new_dict)
