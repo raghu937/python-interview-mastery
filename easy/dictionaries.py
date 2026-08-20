@@ -65,5 +65,13 @@ print(type(trignometry))
 x = dict(trignometry)
 y = {n:m for m,n in x.items()}
 print(type(x))
+print(x)
 
 print(y,new_dict)
+print(new_dict)
+invert_new_dict = {n:m for m,n in new_dict.items()}
+print(invert_new_dict)
+
+clearing_list = invert_new_dict.clear()
+print(invert_new_dict)
+print(clearing_list)
