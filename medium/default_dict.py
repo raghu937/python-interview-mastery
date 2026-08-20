@@ -27,6 +27,7 @@ print(dict(count))
 
 print(students)
 
+#set default dict , without import we can use this.
 new_dict = {}
 
 for x,y in students:
